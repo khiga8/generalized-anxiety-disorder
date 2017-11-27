@@ -23,7 +23,10 @@
                 <a class = "buttons" id = "facts"> Facts! </a>
                 <a class = "buttons" id = "resources" href="#resourcesTreatment"> Resources & Treatment </a>
         </div>
+
+
     </div>
+
 
     <div id="animatedModal">
         <div class="close-animatedModal">  </div>
@@ -71,6 +74,7 @@
                     <li> OCD</li>
                 </ul>
                 </p>
+                <p class = "p1"> To learn more about the symptoms & causes of GAD, check out this website <a href = "https://www.mayoclinic.org/diseases-co…" target = "_blank"> here.</a> </p>
             </div>
         </div>
     </div>
@@ -133,7 +137,6 @@
                     </table>
                 </div>
             </div>
-        <canvas class="background"> </canvas>
     </div>
 
     <div id = "resourcesTreatment">
@@ -144,7 +147,10 @@
             </div>
         </div>
     </div>
-    
+
+
+    <canvas class="background"> </canvas>
+
     <script src = "assets/js/animatedModal.js"></script>
     <script src="https://npmcdn.com/particlesjs@2.1.0/dist/particles.min.js"></script>
     <script> 
@@ -174,7 +180,7 @@
             selector: '.background',
             color: '#75A5B7',
             maxParticles: 130,
-            connectParticles: true,
+            connectParticles: false,
             responsive: [
             {
               breakpoint: 768,
@@ -190,8 +196,6 @@
           ]
         });
       };
-       
-
     </script>
     </body>
 
