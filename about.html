@@ -3,21 +3,21 @@
     <head>
         <title>Home</title>
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/about-style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.1.0/particles.min.js"></script>
     </head>
     <body> 
-    <div id="particles-js"></div>
     <div class = "main-content">
-        <h1> Generalized Anxiety Disorder </h1> 
-        <p> is much more than just feeling anxious. It plagues people with severe
+        <div id="particles-js"></div>
+        <h1> Generalized Anxiety Disorder (GAD) </h1>
+        <p> is much more than just feeling anxious. GAD can plague people with severe
             feelings of tension and anxiety and can disrupt everyday life. <br><br>
             Anxiety disorders are the most common of mental disorders, and of them GAD is the most common, affecting 6.8 million adults in the US.
         </p>
-        <div class = "center">
+        <div class = "nav">
                 <a class = "buttons" id ="symptoms" href="#animatedModal"> Symptoms of GAD  </a>
                 <a class = "buttons" id = "life" href="#lifeWithGAD"> What is it like to live with GAD? </a>
                 <a class = "buttons" id = "facts"> Facts </a>
@@ -25,12 +25,11 @@
         </div>
     </div>
 
-
     <div id="animatedModal">
         <div class="close-animatedModal">  </div>
-        <div class="modal-content">
+        <div class="modal-content" id = "symptomsOutline">
             <div class = "thum"> 
-                <h2> Symptoms of Generalized Anxiety Disorder </h2>
+                <h2> Symptoms of Generalized Anxiety Disorder (GAD) </h2>
                 <p class = "p1"> The following table lists some of the key differences between normal anxiety and generalized anxiety disorder: </p> 
                   <table style="width:100%">
                       <tr>
@@ -147,23 +146,26 @@
     </div>
 
 
-    <canvas class="background"> </canvas>
+  <!--   <canvas class="background"> </canvas> -->
 
     <script src = "assets/js/animatedModal.js"></script>
     <script src="https://npmcdn.com/particlesjs@2.1.0/dist/particles.min.js"></script>
     <script> 
+
           $("#symptoms").animatedModal({
             modalTarget: 'animatedModal',
             animatedIn: 'zoomIn',
             animatedOut: 'bounceOut',
-            color: '#263E45'
+            // color: '#263E45'
+            color: 'transparent'
+            // color: '#7EB5C5'
             });
 
           $("#life").animatedModal({
             modalTarget: 'lifeWithGAD',
             animatedIn: 'zoomIn',
             animatedOut: 'bounceOut',
-            color: 'black'
+            color: '#80B48A'
             });
 
            $("#resources").animatedModal({
@@ -173,28 +175,27 @@
             color: '#417505'
             });
 
-            window.onload = function() {
-            Particles.init({
-            selector: '.background',
-            color: '#75A5B7',
-            maxParticles: 130,
-            connectParticles: false,
-            responsive: [
-            {
-              breakpoint: 768,
-              options: {
-                maxParticles: 80
-              }
-            }, {
-              breakpoint: 375,
-              options: {
-                maxParticles: 50
-              }
-            }
-          ]
-        });
-      };
-    </script>
-    </body>
+            // window.onload = function() {
+            // Particles.init({
+            // selector: '.background',
+            // color: '#75A5B7',
+            // maxParticles: 130,
+            // connectParticles: false,
+            // responsive: [
+            // {
+            //   breakpoint: 768,
+            //   options: {
+            //     maxParticles: 80
+            //   }
+            // }, {
+            //   breakpoint: 375,
+            //   options: {
+            //     maxParticles: 50
+            //   }
+            // }
+        //   ]
+        // });
+      // };
 
+</script>
 </html>

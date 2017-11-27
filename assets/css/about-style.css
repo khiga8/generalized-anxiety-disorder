@@ -1,19 +1,21 @@
 
 html, body {
-  background-color: #2E2E2E;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  background-color: white;
+
 }
 
 .main-content {
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 50px;
 }
 
-.center {
-  width: 60%;
+.nav {
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -29,54 +31,58 @@ html, body {
 
 h1{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 60px;
+	font-size: 45px;
+  font-weight: 900;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
-	color: #FF9B9B;
+  color: #BD0000;
   z-index: 100;
 }
 
 h2{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 45px;
-  color: #FFFFFF;
+/*  color: #FFFFFF;*/
+  color: black;
   z-index: 100;
 }
 
 h3{
   font-family: 'Quicksand', sans-serif;
   font-size: 45px;
-  color: #FF9B9B;
+  color: black;
   z-index: 100;
 }
 
 
 p{
-	font-family: 'Lato', sans-serif;
-	font-size: 30px;
+	font-family: 'Encode Sans', sans-serif;
+	font-size: 25px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 60px;
-	color: #D4D4D4;
+  color: black;
+/*  color: #595353;*/
+/*	color: #D4D4D4;*/
   z-index: 100;
 }
 
 .p1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-size: 25px;
 	text-align: left;
-	color: #E0E6E8;
+	color: black;
 	margin: 0%;
 	margin-bottom: 30px;
   z-index: 100;
 }
 
 .p2{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-size: 25px;
   text-align: left;
-  color: #E0E6E8;
+  color: #80B48A;
   margin: 0%;
   margin-bottom: 30px;
   z-index: 100;
@@ -85,7 +91,7 @@ p{
 }
 table, th, td {
 	 overflow: hidden;
-	 font-family: 'Lato', sans-serif;
+	 font-family: 'Encode Sans', sans-serif;
     border: 1px solid black;
     color: black;
     font-size: 20px;
@@ -109,12 +115,12 @@ td{
 }
 
 .circleR:hover td{
-  background-color: black;
+  background-color: #80B48A;
   overflow: visible;
 }
 
 .circleTable, .circleD, .circleR{
-  background-color: black;
+  background-color: #80B48A;
   border: none;
   table-layout: fixed;
   width: 300px;
@@ -172,7 +178,6 @@ h4{
 
 #five{
   background-color: #50870F;
-
 }
 
 @-webkit-keyframes shrinkGrow {
@@ -202,52 +207,60 @@ h4{
 	font-family: 'Quicksand', sans-serif;
 	border-style: solid;
 	border-color: black;
+  border-radius: 25px;
 	padding: 25px;
 	text-align: center;
 	margin: 5px;
 	width: 300px;
-	height: 100px;
+	height: 80px;
 	text-decoration: none;
-	color: #D4D4D4;
+	color: black;
 	float: left;
 	position: relative;
 	font-size: 25px;
 }
 
 li{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
 	font-size: 20px;
   color: #B5BFC2;
 }
 
 #symptoms{
-	border-color: #8586FF;
+background-color: #7EB5C5;
+}
+
+#symptomsOutline{
+  background-color: #7EB5C5;
+}
+#animatedModal{
+  background-color: #7EB5C5;
 }
 
 #life{
-	border-color: #7AC3C2;
+	background-color: #80B48A;
 }
 
 #facts{
-	border-color: #FC7E0F;
+	background-color: #FC7E0F;
 
 }
 
 #resources{
-	
-  border-color: #9AFF24;
+  background-color: #9AFF24;
 }
 
 a {
     color:#E74B3D;
     font-weight:700;
     z-index: 100;
+    vertical-align: middle;
 }
 
 [class*="close-"] {
   border: 2px solid;
   border-radius: 100%;
-  color: #FFF;
+  color: black;
   cursor: pointer;
   display: block;
   font-size: 1.75em;
@@ -263,9 +276,11 @@ a {
 
 .modal-content {
   display: block;
-  margin: 2em auto;
+  margin: 1em auto;
   max-width: 1000px;
   padding: 10px;
+  border: 3px solid;
+  border-radius: 25px ;
 }
 
 .thum {
@@ -273,6 +288,7 @@ a {
   overflow: hidden;
   position: relative;
   width: initial;
+  margin: 50px;
 }
 
 .thum img {
