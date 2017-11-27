@@ -1,16 +1,22 @@
-body{
-  background-color: #2E2E2E;*/
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 html, body {
+  background-color: #2E2E2E;
+
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  }
 
 h1{
 	font-family: 'Quicksand', sans-serif;
@@ -24,13 +30,15 @@ h1{
 h2{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 45px;
-	color: black;
+  color: #FF9B9B;
 }
 
 h3{
   font-family: 'Quicksand', sans-serif;
   font-size: 45px;
-  color: white;
+/*  color: white;
+*/  color: #FF9B9B;
+  z-index: 20;
 }
 
 
@@ -41,6 +49,7 @@ p{
 	margin-right: 10%;
 	margin-bottom: 60px;
 	color: #D4D4D4;
+  z-index: 20;
 }
 
 .p1{
@@ -50,6 +59,7 @@ p{
 	color: black;
 	margin: 0%;
 	margin-bottom: 30px;
+   z-index: 20;
 }
 
 .p2{
@@ -59,6 +69,7 @@ p{
   color: white;
   margin: 0%;
   margin-bottom: 30px;
+   z-index: 20;
 
 
 }
@@ -120,6 +131,7 @@ h4{
   position: relative;
   float: left;
   transition: all .2s ease-in-out;
+  z-index: 100;
 }
 
 .circle:hover{
@@ -223,7 +235,8 @@ li{
 
 a {
     color:#E74B3D;
-    font-weight:700
+    font-weight:700;
+    z-index: 100;
 }
 
 [class*="close-"] {
@@ -240,6 +253,7 @@ a {
   padding: 0;
   position: relative;
   width: 50px;
+  z-index: 100;
 }
 
 .modal-content {
