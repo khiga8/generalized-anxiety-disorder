@@ -129,6 +129,7 @@ td{
   padding: 0px;
   overflow: visible;
   text-align: center;
+  z-index: 300;
 }
 
 
@@ -223,7 +224,7 @@ h4{
 li{
 	font-family: 'Encode Sans', sans-serif;
 	font-size: 20px;
-  color: #B5BFC2;
+  color: #474747;
 }
 
 #symptoms{
@@ -239,6 +240,9 @@ background-color: #7EB5C5;
 
 #life{
 	background-color: #80B48A;
+}
+#lifeOutline{
+  background-color: #80B48A;
 }
 
 #facts{
@@ -288,7 +292,7 @@ a {
   overflow: hidden;
   position: relative;
   width: initial;
-  margin: 50px;
+  margin: 80px;
 }
 
 .thum img {
