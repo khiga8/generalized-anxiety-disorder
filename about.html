@@ -23,6 +23,10 @@
                 <a class = "buttons" id = "facts"> Facts </a>
                 <a class = "buttons" id = "resources" href="#resourcesTreatment"> Resources & Treatment </a>
         </div>
+        <br> 
+        <div id = "footnote"> 
+        <p id = "fooot"> This website was created for the Intro to Counseling Decal at UC Berkeley to raise awareness on mental health issues affecting college students. </p>
+        </div>
     </div>
 
     <div id="animatedModal">
@@ -77,7 +81,7 @@
     </div>
 
     <div id="lifeWithGAD">
-            <div class="close-lifeWithGAD"> X </div>
+            <div class="close-lifeWithGAD">  </div>
             <div class="modal-content" id = "lifeOutline">
                 <div class = "thum">
                     <h3> What is it like to live with GAD? </h3>
@@ -138,9 +142,9 @@
 
     <div id = "resourcesTreatment">
         <div class = "close-resourcesTreatment"> X </div>
-        <div class = "modal-content">
+        <div class = "modal-content" id = "resourcesOutline">
             <div class = "thum">
-                <h3> Treatment for GAD </h3> 
+                <h3> Resources & Treatment for GAD </h3> 
             </div>
         </div>
     </div>
@@ -156,9 +160,7 @@
             modalTarget: 'animatedModal',
             animatedIn: 'zoomIn',
             animatedOut: 'bounceOut',
-            // color: '#263E45'
             color: 'transparent'
-            // color: '#7EB5C5'
             });
 
           $("#life").animatedModal({
