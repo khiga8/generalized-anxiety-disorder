@@ -152,12 +152,12 @@ td{
 }
 
 .circleR:hover td{
-  background-color: #FFEC5C;
+  background-color: #F7F1C7;
   overflow: visible;
 }
 
 .circleTable, .circleD, .circleR{
-  background-color: #FFEC5C;
+  background-color: #F7F1C7;
   border: none;
   table-layout: fixed;
   width: 300px;
@@ -282,11 +282,14 @@ li{
 }
 
 
-#life, #lifeOutline{
+#life{
   background-color: #FFEC5C;
 /*	background-color: #80B48A;
 */}
 
+#lifeOutline{
+  background-color: #F7F1C7;
+}
 
 #facts, #factsOutline{
 	background-color: #FFC15A;
