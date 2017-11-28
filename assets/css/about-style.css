@@ -148,6 +148,9 @@ h4{
   float: left;
   transition: all .2s ease-in-out;
   z-index: 100;
+  border: solid 3px;
+  border-color: black;
+  ;
 }
 
 .circle:hover{
