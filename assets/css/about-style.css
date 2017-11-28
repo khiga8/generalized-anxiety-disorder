@@ -275,6 +275,11 @@ background-color: #7EB5C5;
 
 }
 
+#factsOutline{
+  background-color: #FC7E0F;
+
+}
+
 #resources{
   background-color: #9AFF24;
 }
@@ -290,6 +295,10 @@ background-color: #7EB5C5;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+#mentalResourcesOutline{
+  background-color: #F3B6FF;
 }
 
 a {

@@ -18,9 +18,9 @@
         <div class = "nav">
                 <a class = "buttons" id ="symptoms" href="#animatedModal"> Symptoms of GAD  </a>
                 <a class = "buttons" id = "life" href="#lifeWithGAD"> What is it like to live with GAD? </a>
-                <a class = "buttons" id = "facts"> Facts </a>
+                <a class = "buttons" id = "facts" href = "#factsGAD"> Facts </a>
                 <a class = "buttons" id = "resources" href="#resourcesTreatment"> Treatment </a>
-                <a class = "buttons" id = "berkResources" href=""> Resources at UC Berkeley </a>
+                <a class = "buttons" id = "berkResources" href="#mentalResources"> Mental Health Resources at UC Berkeley </a>
         </div>
         <br> 
 
@@ -140,11 +140,30 @@
             </div>
     </div>
 
+    <div id = "factsGAD">
+        <div class = "close-factsGAD"> </div>
+        <div class = "modal-content" id = "factsOutline">
+            <div class = "thum">
+                <h3> Facts </h3> 
+                <p class = "p3"> Women are 2x more likely to have GAD. </p>
+            </div>
+        </div>
+    </div>
+
     <div id = "resourcesTreatment">
-        <div class = "close-resourcesTreatment"> X </div>
+        <div class = "close-resourcesTreatment"> </div>
         <div class = "modal-content" id = "resourcesOutline">
             <div class = "thum">
-                <h3> Resources & Treatment for GAD </h3> 
+                <h3> Treatment for GAD </h3> 
+            </div>
+        </div>
+    </div>
+
+      <div id = "mentalResources">
+        <div class = "close-mentalResources"> X </div>
+        <div class = "modal-content" id = "mentalResourcesOutline">
+            <div class = "thum">
+                <h3> Mental Health Resources at UC Berkeley </h3> 
             </div>
         </div>
     </div>
@@ -163,6 +182,7 @@
             color: 'transparent'
             });
 
+
           $("#life").animatedModal({
             modalTarget: 'lifeWithGAD',
             animatedIn: 'zoomIn',
@@ -170,8 +190,22 @@
             color: 'transparent'
             });
 
+            $("#facts").animatedModal({
+            modalTarget: 'factsGAD',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'transparent'
+            });
+
            $("#resources").animatedModal({
             modalTarget: 'resourcesTreatment',
+            animatedIn: 'zoomIn',
+            animatedOut: 'bounceOut',
+            color: 'transparent'
+            });
+
+            $("#berkResources").animatedModal({
+            modalTarget: 'mentalResources',
             animatedIn: 'zoomIn',
             animatedOut: 'bounceOut',
             color: 'transparent'
