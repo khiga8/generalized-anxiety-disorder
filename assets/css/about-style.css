@@ -8,6 +8,10 @@ html, body {
 
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 .main-content {
   margin: 0 auto;
   width: 100%;
@@ -35,7 +39,7 @@ h1{
 	font-size: 45px;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 7%;
+	margin-top: 9%;
   margin-bottom: 20px;
   color: #BD0000;
   z-index: 100;
@@ -152,12 +156,12 @@ td{
 }
 
 .circleR:hover td{
-  background-color: #F7F1C7;
+  background-color: #FFEF94;
   overflow: visible;
 }
 
 .circleTable, .circleD, .circleR{
-  background-color: #F7F1C7;
+  background-color: #FFEF94;
   border: none;
   table-layout: fixed;
   width: 300px;
@@ -288,7 +292,7 @@ li{
 */}
 
 #lifeOutline{
-  background-color: #F7F1C7;
+  background-color: #FFEF94;
 }
 
 #facts, #factsOutline{
