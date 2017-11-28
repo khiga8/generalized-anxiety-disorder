@@ -12,13 +12,13 @@
     <body> 
     <div class = "main-content">
         <h1> Generalized Anxiety Disorder (GAD) </h1>
-        <p> is much more than just feeling anxious. It can plague people with severe
+        <p> is much more than just feeling anxious. It is a serious mental health disorder that can plague people with severe
             feelings of tension and restlessness. People with GAD find it difficult to control their worries, and this uncontrollable anxiety can interfere with day-to-day life. <br> <br> GAD is one of the most common of mental disorders affecting approximatley 6.8 million adults in the United States. 
         </p>
         <div class = "nav">
                 <a class = "buttons" id ="symptoms" href="#animatedModal"> Symptoms of GAD  </a>
                 <a class = "buttons" id = "life" href="#lifeWithGAD"> What is it like to live with GAD? </a>
-                <a class = "buttons" id = "facts" href = "#factsGAD"> Facts </a>
+                <a class = "buttons" id = "facts" href = "#factsGAD"> Fact Check! </a>
                 <a class = "buttons" id = "resources" href="#resourcesTreatment"> Treatment </a>
                 <a class = "buttons" id = "berkResources" href="#mentalResources"> Mental Health Resources at UC Berkeley </a>
         </div>
@@ -86,6 +86,7 @@
             <div class="modal-content" id = "lifeOutline">
                 <div class = "thum">
                     <h3> What is it like to live with GAD? </h3>
+                    <p class = "p1"> select any of the circle below to learn about what living with GAD can be like </p> 
                     <table class = "circleTable" style = "width: 100%">
                         <tr class = "circleR">
                         <td class = "circleD">                    
@@ -144,8 +145,29 @@
         <div class = "close-factsGAD"> </div>
         <div class = "modal-content" id = "factsOutline">
             <div class = "thum">
-                <h3> Facts </h3> 
-                <p class = "p3"> Women are 2x more likely to have GAD. </p>
+                <h3> GAD Fact Check! </h3> 
+                <div id = "fact-card-stack">
+                    <p class = "p1"> take a moment to think... then hover over the box to reveal a fact about GAD! </p> 
+                 <div class = "fact-card"> 
+                    <div class="question"> Who is more likely to be affected by GAD, Men or Women? </div> 
+                    <div class = "answer" > <b> <span style="color:red"> Women </span> </b>  are twice as likely to affected by GAD than men. </div> 
+                </div> 
+                 <div class = "fact-card"> 
+                    <div class = "question"> Which demographic group in the US is most likely to develop GAD? </div> 
+                    <div class = "answer"> <b> <span style="color:red"> Native Americans (6.3%)  </span> </b> are more likely to develop GAD than white Americans (4.6%), Afro-Americans (3.0%), Hispanics (2.8%), and Asians (1.9%). </div> 
+                </div> 
+                 <div class = "fact-card"> 
+                    <div class = "question"> ____% of people with GAD have at least one other mental disorder. </div> 
+                    <div class = "answer">  <b> <span style="color:red"> 60.5% </span></b> of people with GAD have at least one other mental disorder.  </div> 
+                </div> 
+                 <div class = "fact-card"> 
+                    <div class = "question"> Young people with GAD tend to worry about ____, while older people tend to worry about ____. </div> 
+
+                    <div class = "answer"> Young people with GAD tend to worry about <b> <span style="color:red"> finances, family, and work, </span> </b> while older people tend to worry about <b> <span style="color:red">diseases and health.</span> </b> </div> 
+                </div> 
+            </div>
+            <p class = "p1"> <br> To learn more facts & statistics about GAD, check out this website <a href = "https://www.barendspsychology.com/generalized-anxiety-disorder-facts/#Comorbidity." target = "_blank"> here.</a> </p>
+                              
             </div>
         </div>
     </div>
@@ -155,21 +177,33 @@
         <div class = "modal-content" id = "resourcesOutline">
             <div class = "thum">
                 <h3> Treatment for GAD </h3> 
+                <p class = "p1"> Generalized Anxiety Disorder is treatable yet only 43.2% of those with GAD are receiving treatment. <a href = "https://adaa.org/about-adaa/press-room/facts-statistics" target = "_blank"> (ADAA)</a> . </p> 
+                <div id  "treatment-options"> 
+                     <div class = "treat">
+                     <p class = "p1"> <b> <span style="color: #BD0000;"> Cognitive Behavior Therapy </span></b> is said to be one of the most effective form of psychotherapy to treat GAD. Cognitive Behavior Therapy focuses on changing patterns of thinking that could be behind ones anxiety.   </p> 
+                     Learn more about Cognitive Behavioral Therapy  <a href = "https://psychcentral.com/lib/in-depth-cognitive-behavioral-therapy/" target = "_blank"><span style="color: blue;"> here. </span> </a>
+                     </div> 
+                     <div class = "treat">
+                     <p class = "p1"> <b> <span style="color: #BD0000;"> Medications </span> </b> including SSRIs, SNRIs, and antidepressants could be used in conjunction with therapy to treat anxiety disorders. It is generally safe, but there could be potentially dangerous drug interactions and side effects, so consult a doctor before use. </p> 
+                     Learn more about medication options  to treat GAD <a href = "https://adaa.org/finding-help/treatment/medication" target = "_blank"><span style="color: blue;"> here. </span> </a>
+                     </div> 
+                
+                 <p class = "p1"> If you are struggling with GAD, there are various treatments available that could significantly help you! Talk with a healthcare professional to discuss the best treatment option for you. </p> 
+
+                </div>
+
             </div>
         </div>
     </div>
 
       <div id = "mentalResources">
-        <div class = "close-mentalResources"> X </div>
+        <div class = "close-mentalResources"> </div>
         <div class = "modal-content" id = "mentalResourcesOutline">
             <div class = "thum">
                 <h3> Mental Health Resources at UC Berkeley </h3> 
             </div>
         </div>
     </div>
-
-
-  <!--   <canvas class="background"> </canvas> -->
 
     <script src = "assets/js/animatedModal.js"></script>
     <script src="https://npmcdn.com/particlesjs@2.1.0/dist/particles.min.js"></script>

@@ -39,14 +39,15 @@ h1{
   margin-bottom: 20px;
   color: #BD0000;
   z-index: 100;
+  text-align: left;
 }
 
 h2{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 45px;
-/*  color: #FFFFFF;*/
   color: black;
   z-index: 100;
+  text-align: center;
 }
 
 h3{
@@ -54,6 +55,7 @@ h3{
   font-size: 45px;
   color: black;
   z-index: 100;
+  text-align: center;
 }
 
 
@@ -252,6 +254,12 @@ li{
   color: black;
 }
 
+.gad-facts{
+  font-size: 25px;
+  line-height: 30px;
+
+}
+
 #symptoms{
 background-color: #7EB5C5;
 }
@@ -306,6 +314,7 @@ a {
     font-weight:700;
     z-index: 100;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 [class*="close-"] {
@@ -325,6 +334,77 @@ a {
   z-index: 100;
 }
 
+#fact-card-stack{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+#treatment-options{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.treat{
+  width: 80%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  height: 200px;
+  border: 3px solid black;
+  position: relative;
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+  font-family: 'Encode Sans', sans-serif;
+
+}
+.fact-card:hover .answer{
+  opacity: 1;
+      -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.fact-card:hover .question{
+  opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.question{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+}
+.answer{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+}
+.fact-card{
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  position: relative;
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+  font-family: 'Encode Sans', sans-serif;
+}
 .modal-content {
   display: block;
   margin: 1em auto;
