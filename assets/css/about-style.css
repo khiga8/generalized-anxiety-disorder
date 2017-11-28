@@ -98,6 +98,16 @@ p{
   margin-bottom: 30px;
   z-index: 100;
 }
+.p3{
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  margin: 0%;
+  margin-bottom: 30px;
+  z-index: 100;
+}
+
 
 table, th, td {
 	 overflow: hidden;
@@ -389,7 +399,7 @@ a {
   position: relative;
   background-color: white;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   font-size: 25px;
   font-family: 'Encode Sans', sans-serif;
@@ -407,10 +417,26 @@ a {
   background-color: #FFF9A2;
   color: black;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Encode Sans', sans-serif;
+  text-align: center;
+}
+
+.call{
+  width: auto;
+  height: auto;
+  border: 3px solid black;
+  position: relative;
+  background-color: #C6C6C6;
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Encode Sans', sans-serif;
+  text-align: center;
 
 }
 
