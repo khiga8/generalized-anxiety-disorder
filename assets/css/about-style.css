@@ -4,7 +4,8 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff;
+  background-image: url(https://www.transparenttextures.com/patterns/grid-me.png);
 
 }
 
@@ -16,6 +17,7 @@ html, body {
   margin: 0 auto;
   width: 100%;
   margin-bottom: 30px;
+
 }
 
 .nav {
@@ -132,7 +134,7 @@ table, th, td {
   background-color: #878787;
   height: 150px;
   border: 3px solid black;
-
+ background-image: url(https://www.transparenttextures.com/patterns/subtle-carbon.png);
 
 }
 #fooot{
@@ -282,14 +284,13 @@ li{
 }
 
 #symptoms, #symptomsOutline, #animatedModal{
- background-color: #C3F2FF;
+  background-color: #70b3e0;
 }
 
 
 #life{
   background-color: #FFEC5C;
-/*	background-color: #80B48A;
-*/}
+}
 
 #lifeOutline{
   background-color: #FFEF94;
@@ -299,12 +300,10 @@ li{
 	background-color: #FFC15A;
 
 }
-
-
 #resources, #resourcesOutline{
-  background-color: #BCFF7A;
-  /*background-color: #9AFF24;*/
+  background-color: #B4F6CD;
 }
+
 
  #berkResources{
   background-color: #F3B6FF;
@@ -319,6 +318,10 @@ li{
   background-color: #F3B6FF;
 }
 
+.modal-content, .buttons{
+   background-image: url(https://www.transparenttextures.com/patterns/subtle-carbon.png);;
+}
+
 a {
     color:#E74B3D;
     font-weight:700;
@@ -328,9 +331,6 @@ a {
 }
 
 [class*="close-"] {
-  border: 2px solid;
-  border-radius: 100%;
-  color: black;
   cursor: pointer;
   display: block;
   font-size: 1.75em;
@@ -343,6 +343,27 @@ a {
   width: 50px;
   z-index: 100;
 }
+
+#closebt-container {
+  position: relative;
+  width:100%;
+  text-align:center;
+  margin-top:40px;
+}
+
+.closebt {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor:pointer;
+}
+
+.closebt:hover {
+  transform:rotate(90deg);
+}
+
 
 #fact-card-stack{
   width: 85%;
@@ -480,6 +501,7 @@ a {
   padding: 10px;
   border: 3px solid;
   border-radius: 25px ;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
 }
 
 .thum {
