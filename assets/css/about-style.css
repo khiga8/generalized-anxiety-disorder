@@ -409,13 +409,13 @@ a {
 
 
 .reso{
-  width: auto;
+  width: 80%;
   height: auto;
   border: 3px solid black;
   position: relative;
   background-color: white;
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
   font-size: 25px;
   font-family: 'Encode Sans', sans-serif;
