@@ -13,10 +13,13 @@ html, body {
 }
 
 .main-content {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-  margin-bottom: 30px;
+  min-height: 100%;
+  position: relative;
+}
+
+.content-body{
+  padding: 10px;
+  padding-bottom: 200px;
 }
 
 .nav {
@@ -126,14 +129,14 @@ table, th, td {
 }
 
 
-#footnote{
+.footnote{
   width: 100%;
-  left: 0;
+  position: absolute;
   bottom: 0;
   background-color: #878787;
   height: 150px;
   border: 3px solid black;
- background-image: url(https://www.transparenttextures.com/patterns/subtle-carbon.png);
+  background-image: url(https://www.transparenttextures.com/patterns/subtle-carbon.png);
 
 }
 #fooot{
