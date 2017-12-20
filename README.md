@@ -1,0 +1,2 @@
+# generalized-anxiety-disorder
+I created this website in an effort to spread awareness about Generalized Anxiety Disorder, one of the most common mental health disorder in the United States. I also wanted to raise awareness to UC Berkeley about the various mental health resources available on campus that not many people know of. With this website, I focused on using warm colors, and making the content approachable to the average internet student. I aimed to make the website as interactive as possible to keep the user engaged with the content. 
